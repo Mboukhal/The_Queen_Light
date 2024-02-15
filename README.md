@@ -1,13 +1,13 @@
 # The Queen Light
 
 ## Project Overview
-This Arduino and ESP32-based project utilize an LED strip (SM16703) and an ultrasonic sensor (HC-SR04) to check void closets without the need to open them. The code is modularized for better organization and readability.
+This ESP32-based project utilize an LED strip (SM16703) and an ultrasonic sensor (HC-SR04) to check void closets without the need to open them. The code is modularized for better organization and readability.
 
 ## Hardware Components
-- Arduino
 - ESP32
 - LED strip (SM16703)
 - Ultrasonic sensor (HC-SR04)
+- Shift Register (74hc565)
 
 ## Libraries
 The project utilizes the following library:
